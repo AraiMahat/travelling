@@ -1,0 +1,18 @@
+{
+    "name": "vb_travel",
+    "version": "1.0.0",
+    "description": "travelling",
+    "main": "index.html",
+    "scripts": {
+      "homepage": "https://AraiMahat.github.io//travelling",
+      "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+      "deploy": "gh-pages -d dist"
+    },
+    "author": "Arailym Mahat",
+    "license": "MIT",
+    "dependencies": {
+      "gh-pages": "^3.1.0",
+      "node-sass": "^5.0.0"
+    }
+  }
+  
